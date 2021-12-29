@@ -4,7 +4,8 @@ import {
     Text,
     StyleSheet,
     TextInput,
-    FlatList
+    FlatList,
+    StatusBar
 } from 'react-native';
 import { Button } from "../components/Button";
 import { SkillCard } from "../components/SkillCard";
@@ -32,7 +33,7 @@ export function Home(){
     }, [])
 
   return (
-      <View style={styles.container}>
+        <View style={styles.container}>
         <Text style={styles.title}>Welcome, Pedro</Text>
 
         <Text style={styles.greeting}>
